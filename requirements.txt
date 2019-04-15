@@ -1,0 +1,7 @@
+opencv-python
+numpy
+flask
+pillow
+gunicorn
+tensorflow==1.13.1
+matplotlib

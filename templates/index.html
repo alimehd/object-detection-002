@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<title>Object detection</title>
+<link rel=stylesheet type=text/css href='{{ url_for('static',filename='style.css')}}'>
+<div class="page">
+  <h1>Object detection in an image</h1>
+  <div class="metanav">
+    <h4>
+      <p>Please upload an image and click submit.</p> 
+      <p>Please note that it may take a while 
+      to upload the image to the buffer memory.</p>
+    </h4>
+    <form id="input" action = "/" method = "POST"
+         enctype = "multipart/form-data">    
+      <input type = "file" name = "file" /><br>
+      <br><br><br>
+         <input type = "submit"/>
+
+        <br><br>
+     <a target="_blank" href="https://github.com/mehdiomid">Github</a>
+    </form>
+
+   </div>
+	
+</div>
+
+</html>
